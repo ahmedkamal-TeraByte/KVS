@@ -16,8 +16,8 @@ Implement a high-availability distributed key-value store with master-slave mesh
    - **Slave Nodes**: All subsequent nodes, register with master and receive cluster topology
    - **Main Server**: Primary server instance for each node
    - **Replica Server**: Backup server instance paired with each main server
-   - 
-![Cluster_Topology.png](../../Documents/Screenshot%202025-12-28%20at%2011.03.46%E2%80%AFPM.png)
+   - <img width="730" height="648" alt="Cluster_Topology" src="https://github.com/user-attachments/assets/6da81390-28ba-46d4-9509-be380473240e" />
+
 2. **Replication Strategy**
 
    - Each write operation (PUT/PATCH) writes to both main and replica server
